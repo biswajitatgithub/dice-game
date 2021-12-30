@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ddd;
+}
+.dice-header{
+    height: 3rem;
+    background-color: black;
+    margin-bottom: 6rem;
+    p{
+        text-align: center;
+        font-size: 1.6rem;
+        padding:.5rem 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+    }
+}
+.gaming-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    .player-container{
+        display: flex;
+        flex-direction: row;
+        div.gaming-area-player{
+            width: 10rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 5rem;
+            i{
+                font-size: 8rem;
+                text-align: center;
+            }
+            p{
+                margin-top: 2rem;
+                text-align: center;
+            }
+        }
+    }
+    div.counter{
+        width: 7rem;
+        background-color: white;
+        p{
+            color: black;
+            font-size: 2rem;
+            font-family: monospace;
+            text-align: center;
+        }
+    }
+}
+.result{
+    margin-bottom: 3rem;
+    p{
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    button{
+        padding: 1rem 3rem;
+        background: black;
+        color: white;
+        border: none;
+        box-shadow: 5px 5px 20px black;
+        &:hover{
+            cursor: pointer;
+            box-shadow: 5px 5px 10px black;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Daily Dice</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <nav class="dice-header">
+        <p class="dice-header-text">Daily Dice</p>
+    </nav>
+    <section class="gaming-area">
+        <div class="counter">
+            <p class="player-count">0</p>
+        </div>
+        <div class="player-container">
+            <div class="gaming-area-player">
+                <i class="fas fa-dice"></i>
+                <p class="player-name">Biswajit</p>
+            </div>
+            <div class="gaming-area-player">
+                <i class="fas fa-dice"></i>
+                <p class="player-name">Sandeep</p>
+            </div>
+        </div>
+        <div class="counter">
+            <p class="player-count">0</p>
+        </div>
+    </section>
+    <div class="result">
+        <p class="result-text">Roll the dice.</p>
+    </div>
+    <div class="button-container">
+        <button onclick="play()" class="reload-button">Roll</button>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>

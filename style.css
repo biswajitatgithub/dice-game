@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.dice-header {
+  height: 3rem;
+  background-color: black;
+  margin-bottom: 6rem;
+}
+
+.dice-header p {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: .5rem 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.gaming-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+}
+
+.gaming-area .player-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.gaming-area .player-container div.gaming-area-player {
+  width: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 5rem;
+}
+
+.gaming-area .player-container div.gaming-area-player i {
+  font-size: 8rem;
+  text-align: center;
+}
+
+.gaming-area .player-container div.gaming-area-player p {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.gaming-area div.counter {
+  width: 7rem;
+  background-color: white;
+}
+
+.gaming-area div.counter p {
+  color: black;
+  font-size: 2rem;
+  font-family: monospace;
+  text-align: center;
+}
+
+.result {
+  margin-bottom: 3rem;
+}
+
+.result p {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button-container button {
+  padding: 1rem 3rem;
+  background: black;
+  color: white;
+  border: none;
+  -webkit-box-shadow: 5px 5px 20px black;
+          box-shadow: 5px 5px 20px black;
+}
+
+.button-container button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 5px 5px 10px black;
+          box-shadow: 5px 5px 10px black;
+}
+/*# sourceMappingURL=style.css.map */
